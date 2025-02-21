@@ -176,4 +176,45 @@ Aqui está um exemplo de uma função pura que calcula a média de uma lista de 
    (def dobrar-e-incrementar (comp inc #(* 2 %)))
    (dobrar-e-incrementar 5) ; => 11
    ```
-   
+
+## Nomeando funções
+
+Na programação funcional, a forma declarativa é geralmente preferida sobre a forma imperativa ao nomear funções. Aqui estão as diferenças entre as duas abordagens:
+
+### Forma Imperativa
+
+- **Foco no "como"**: Descreve passo a passo como a tarefa deve ser realizada.
+- **Exemplo de nome**: `calcular-desconto` (indica que a função está realizando uma ação específica).
+
+### Forma Declarativa
+
+- **Foco no "o quê"**: Descreve o que a função faz, sem detalhar como a tarefa é realizada.
+- **Exemplo de nome**: `desconto` (indica o resultado ou o conceito que a função representa).
+
+### Programação Funcional
+
+Na programação funcional, a forma declarativa é preferida porque:
+
+- **Clareza**: Nomes declarativos são mais claros e concisos, facilitando a compreensão do código.
+- **Imutabilidade**: A programação funcional enfatiza a imutabilidade e a ausência de efeitos colaterais, o que se alinha bem com nomes declarativos.
+- **Composição**: Funções declarativas são mais fáceis de compor e reutilizar.
+
+### Exemplo
+
+Imperativo:
+
+```clojure
+(defn calcular-desconto
+  [valor-bruto]
+  (* valor-bruto 0.9))
+```
+
+Declarativo:
+
+```clojure
+(defn desconto
+  [valor-bruto]
+  (* valor-bruto 0.9))
+```
+
+No exemplo acima, `desconto` é um nome mais declarativo e apropriado para programação funcional, pois descreve o que a função representa, não como ela faz isso.
