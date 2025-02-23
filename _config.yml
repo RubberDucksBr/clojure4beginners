@@ -3,7 +3,12 @@ title: Clojure4Beginners
 theme: minima
 minima:
   skin: classic
-
-header_pages:
-  - README.md
-  
+  header_pages:
+    - README.md
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/rubberducksbr"
+    - title: Instagram
+      icon: instagram
+      url: "https://instagram.com/rubberducksbr"
