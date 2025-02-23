@@ -1,1 +1,9 @@
+title: Clojure4Beginners
+
 theme: minima
+minima:
+  skin: classic
+
+header_pages:
+  - README.md
+  
