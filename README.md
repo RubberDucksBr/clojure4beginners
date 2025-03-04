@@ -16,6 +16,13 @@ Este repositório é um guia prático para aprender Clojure, abordando desde con
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://felurye.com.br"><img src="https://avatars.githubusercontent.com/u/37555137?v=4?s=100" width="100px;" alt="Daniele Araújo"/><br /><sub><b>Daniele Araújo</b></sub></a><br /><a href="#code-felurye" title="Code">💻</a> <a href="#content-felurye" title="Content">🖋</a> <a href="#example-felurye" title="Examples">💡</a> <a href="#ideas-felurye" title="Ideas, Planning, & Feedback">🤔</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
