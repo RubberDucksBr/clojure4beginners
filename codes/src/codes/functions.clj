@@ -12,7 +12,7 @@
 (defn valor-descontado-otimizado
   "Retorno do valor com o desconto de 10%"
   [valor-bruto]
-  (* valor-bruto (- 1 0.10))) 
+  (* valor-bruto (- 1 0.10)))
 
 ; Ambas as funções retornam o mesmo resultado, no entanto, a segunda definição é mais explícita sobre o cálculo do desconto,
 ; subtraindo diretamente 0.10 de 1, o que torna o código mais legível e fácil de entender.
