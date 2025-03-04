@@ -47,3 +47,22 @@
 ;(println "Chamada de `meu-mapa-otimizado` com um range de 10000 elementos:")
 ;(meu-mapa-otimizado println (range 10000))
 ;(println "----------------")
+
+(defn valor-descontado
+  "Retorno do valor com o desconto de 10%"
+  [valor-bruto]
+  (let [taxa-de-desconto (/ 10 100)
+        desconto (* valor-bruto taxa-de-desconto)]          ; O let define um símbolo local que só é válido dentro do escopo do let
+    (- valor-bruto desconto)))
+
+(def precos [500, 20, 100, 44, 89])
+
+;(map valor-descontado precos)
+
+
+
+
+
+
+
+
