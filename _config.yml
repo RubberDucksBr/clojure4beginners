@@ -1,16 +1,5 @@
 title: Clojure4Beginners
-
-header_pages:
-    - README.md
-    
-theme: minima
-
-minima:
-  skin: classic
-  social_links:
-    - title: GitHub
-      icon: github
-      url: "https://github.com/rubberducksbr"
-    - title: Instagram
-      icon: instagram
-      url: "https://instagram.com/rubberducksbr"
+#description: ...
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-cayman
