@@ -4,8 +4,6 @@
 
 <h1 align='center'>Clojure4Beginners</h1>
 
----
-
 Este repositório é um guia prático para aprender Clojure, abordando desde conceitos básicos até tópicos avançados de programação funcional, tendo como objetivo fornecer materiais didáticos e exercícios práticos.
 
 ## Aprenda sobre
