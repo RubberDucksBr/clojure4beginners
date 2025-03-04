@@ -19,6 +19,18 @@
         "example",
         "ideas"
       ]
+    },
+    {
+      "login": "SamGomes52",
+      "name": "Samantha Kellen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42253793?v=4",
+      "profile": "https://www.linkedin.com/in/samantha-kellen/",
+      "contributions": [
+        "code",
+        "content",
+        "example",
+        "ideas"
+      ]
     }
   ]
 }
