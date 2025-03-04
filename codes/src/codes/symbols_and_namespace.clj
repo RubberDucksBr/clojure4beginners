@@ -13,3 +13,12 @@
 
 (println (class 90N))
 (println (class 90M))
+
+(defn converte-anos-de-cachorro
+  "Converte anos de cachorro em idade humana"
+  [idade-do-cachorro]
+  (let [numero-multiplicador 5]
+    (* idade-do-cachorro numero-multiplicador)))
+
+(converte-anos-de-cachorro 6)
+

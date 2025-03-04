@@ -24,9 +24,14 @@
 (println "Primeiro item" (estoque 0))
 (println "Segundo item" (estoque 1))
 
-; Retorna nil, pois não existe um terceiro item no vetor
-; (println "Terceiro item" (estoque 2))
+; Ao chamar uma posição que não existe, é retornado um erro
+;(println "Terceiro item" (estoque 2))
 
+; Para que esse erro não ocorra, a função get pode ser utilizada, então o Clojure vai retornar nil
+(println "Terceiro item" (get estoque 2))
+
+; Para retornar um valor padrão caso a posição não exista no vetor:
+(println "Terceiro item" (get estoque 2 "Invalido"))
 
 (conj estoque "Cadeira")
 (println "Estoque:" estoque)                                ; Estoque: [Mochila Caneta]
@@ -47,3 +52,14 @@
 ; permitindo que Clojure seja altamente performático mesmo com a imutabilidade
 
 (def estoque (conj estoque "Cadeira"))
+
+; Para realizar uma operação com um item do vetor, a função update pode ser utilizada:
+(def precos [400 700 1000])
+(println "Lista de preços:" precos)
+; Incrementa 1 ao valor da posição 0 do vetor
+(println "Soma 1 no primeiro item de preços:" (update precos 0 inc))
+; Incrementa 5 ao valor da posição 0 do vetor
+(println "Soma 5 no primeiro item de preços:" (update precos 0 #(+ % 5)))
+
+;Porém o vetor permanece inalterado porque é imutável
+(println "Lista de precos:" precos)
