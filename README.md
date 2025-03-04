@@ -20,6 +20,7 @@ Este repositório é um guia prático para aprender Clojure, abordando desde con
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://felurye.com.br"><img src="https://avatars.githubusercontent.com/u/37555137?v=4?s=100" width="100px;" alt="Daniele Araújo"/><br /><sub><b>Daniele Araújo</b></sub></a><br /><a href="#code-felurye" title="Code">💻</a> <a href="#content-felurye" title="Content">🖋</a> <a href="#example-felurye" title="Examples">💡</a> <a href="#ideas-felurye" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/samantha-kellen/"><img src="https://avatars.githubusercontent.com/u/42253793?v=4?s=100" width="100px;" alt="Samantha Kellen"/><br /><sub><b>Samantha Kellen</b></sub></a><br /><a href="#code-SamGomes52" title="Code">💻</a> <a href="#content-SamGomes52" title="Content">🖋</a> <a href="#example-SamGomes52" title="Examples">💡</a> <a href="#ideas-SamGomes52" title="Ideas, Planning, & Feedback">🤔</a></td>
     </tr>
   </tbody>
 </table>
