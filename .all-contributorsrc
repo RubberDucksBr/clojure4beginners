@@ -1,4 +1,24 @@
 {
-  "projectName": "Clojure4Beginners",
-  "projectOwner": "RubberDucksBr"
+  "projectName": "clojure4beginners",
+  "projectOwner": "RubberDucksBr",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "felurye",
+      "name": "Daniele Araújo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37555137?v=4",
+      "profile": "http://felurye.com.br",
+      "contributions": [
+        "code",
+        "content",
+        "example",
+        "ideas"
+      ]
+    }
+  ]
 }
