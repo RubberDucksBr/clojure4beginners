@@ -1,30 +1,4 @@
-# Introdução à Programação Funcional e Clojure
-
-## O que é Programação Funcional?
-
-Programação funcional é um paradigma de programação que trata a computação como a avaliação de funções matemáticas. Diferente do paradigma imperativo, que se baseia em mudanças de estado e execução sequencial de comandos, a programação funcional enfatiza:
-
-1. **Funções Puras**: Funções que, para os mesmos argumentos, sempre retornam o mesmo resultado e não causam efeitos colaterais (como modificar variáveis globais ou realizar operações de I/O).
-2. **Imutabilidade**: Dados não são alterados após serem criados. Em vez disso, novas estruturas de dados são criadas a partir das existentes.
-3. **Funções de Primeira Classe**: Funções podem ser passadas como argumentos, retornadas por outras funções e atribuídas a variáveis.
-4. **Recursão**: Em vez de loops imperativos, a recursão é frequentemente usada para repetição.
-5. **Higher-Order Functions**: Funções que operam em outras funções, seja recebendo-as como argumento ou retornando-as.
-
-A programação funcional promove código mais modular, previsível e fácil de testar, além de ser especialmente útil em cenários de concorrência e paralelismo.
-
----
-
-## Clojure
-
-Clojure é uma linguagem de programação funcional moderna, dinâmica e de propósito geral. Criada por Rich Hickey e lançada em 2007, Clojure é conhecida por sua simplicidade, imutabilidade e foco em programação funcional. Aqui estão algumas características importantes:
-
-1. **Dialeto LISP**: Clojure é um dialeto da família LISP, uma das primeiras linguagens de programação funcional. Isso significa que ela herda a sintaxe baseada em expressões S (s-expressions), que é extremamente consistente e poderosa.
-2. **Roda na JVM**: Clojure é executada na Java Virtual Machine (JVM), o que permite interoperabilidade com bibliotecas e frameworks Java. Isso a torna uma escolha popular para desenvolvimento de aplicações empresariais e sistemas distribuídos.
-3. **Imutabilidade por Padrão**: Estruturas de dados em Clojure são imutáveis, o que facilita a escrita de código seguro e livre de efeitos colaterais.
-4. **Concorrência Simplificada**: Clojure oferece ferramentas poderosas para lidar com concorrência, como atoms, agents, refs e channels (via bibliotecas como `core.async`).
-5. **Sintaxe Concisa**: A sintaxe de Clojure é minimalista e expressiva, o que permite escrever código conciso e fácil de entender.
-
----
+# Sintaxe Básica
 
 ## Sintaxe e Criação de Funções em Clojure
 

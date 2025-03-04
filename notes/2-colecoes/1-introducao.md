@@ -170,9 +170,3 @@ Clojure oferece funções de ordem superior para manipular coleções:
 (reduce + numeros)
 ;; => 15
 ```
-
----
-
-### **Conclusão**
-
-Coleções em Clojure são poderosas, imutáveis e flexíveis. Elas permitem trabalhar com dados de maneira declarativa e concisa.

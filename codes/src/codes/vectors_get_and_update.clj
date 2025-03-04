@@ -1,4 +1,4 @@
-(ns collections.vectors-get-and-update)
+(ns codes.vectors-get-and-update)
 
 (def precos [10 20 30 40 50])
 

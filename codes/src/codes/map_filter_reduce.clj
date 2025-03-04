@@ -1,4 +1,4 @@
-(ns collections.map-filter-reduce)
+(ns codes.map-filter-reduce)
 
 (def precos [10 20 30 40 100 150 200])
 

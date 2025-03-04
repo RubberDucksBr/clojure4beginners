@@ -2,5 +2,5 @@
 
 ### Coleções
 
-- [Introdução a Coleções em Clojure](/notes/3-introducao-colecoes.md)
-- [Exemplos - Hands On](/notes/4-exemplos-colecoes.md)
+- [Introdução a Coleções em Clojure](/notes/2-colecoes/1-introducao.md)
+- [Exemplos - Hands On](/notes/2-colecoes/2-exemplos.md)

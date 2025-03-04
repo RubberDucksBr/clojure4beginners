@@ -1,4 +1,4 @@
-(ns collections.maps-vals-and-keys)
+(ns codes.maps-vals-and-keys)
 
 
 ; :arroz, por exemplo, é um keyword que representa um produto e 10 é o valor associado a ele.
